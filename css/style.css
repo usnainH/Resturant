@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Playfair+Display&display=swap');
+
+body{
+  background-color:#ebe3cd;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Baloo 2', cursive;
+}
+@media only screen and (max-width: 759px){
+  body{
+    padding-top:40px ;
+    padding-bottom: 40px;
+  }
+}
+.nav-bg{
+  background-color: #df581e;
+}
+.primary-color{
+  color:#df581e
+}
+.secondary-color{
+  color:  #6bb99c;
+}
+.bg-secondary-color{
+  background-color:  #6bb99c;
+}
+.input-color{
+  background-color:#ccc1a3 ; 
+}
+.input-color:focus{
+  background-color:#ccc1a3;
+
+}
+.btn-explore{
+  color: white;
+  background-color:  #df581e;
+  border: 2px solid #df581e;
+}
+.btn-explore:hover{
+  background-color: transparent;
+  color: #df581e;
+}
+.btn-menu{
+  background-color: transparent;
+  border: 2px solid #df581e;
+  color: #df581e;
+}
+.btn-menu:hover{
+  background-color:#df581e;
+  border: 2px solid #df581e;
+  color:white;
+}
+
+/* COVID */
+.btn-covid{
+  background-color: #6bb99c;
+  border: 2px solid #6bb99c;
+  color: white;
+}
+.btn-covid:hover{
+  background-color:transparent;
+  border: 2px solid #6bb99c;
+  color: #6bb99c;
+}
+@media only screen and (max-width: 759px) {
+  .tabler{
+visibility: hidden;
+margin: 0;
+  }
+}
+
+/* Footer */
+#FormControlInput4{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgb(22, 18, 32);
+  background: transparent; 
+}
+.social{
+  background-color: white;
+}
+/*.../ Footer */
+/* scroll top top button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #df581e; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-left: 15px;
+  padding-right: 15px; /* Some padding */
+  padding-top: 8px;
+  padding-bottom: 8px;
+ border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+/* //Top Leading Button */
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
